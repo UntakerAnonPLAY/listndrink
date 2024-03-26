@@ -1,0 +1,10 @@
+.miniarticle {
+  color: white;
+}
+
+.tag {
+  width: min-content;
+  color: red;
+  padding: 0.2em;
+  background-color: white;
+}

@@ -1,0 +1,48 @@
+wines:
+  - red:
+      - berried'n'fresh
+      - smooth'n'fruity
+      - luscious'n'jammy
+      - nuanced'n'developed
+      - robust'n'powerful
+  - white:
+      - smooth'n'light
+      - mellow'n'sweet
+      - crisp'n'fruity
+      - nuanced'n'structured
+      - generous'n'toasty
+
+
+track_params: {
+  danceability: 0.696,
+  energy: 0.905,
+  key: 2,
+  loudness: -2.743,
+  mode: 1,
+  speechiness: 0.103,
+  acousticness: 0.011,
+  instrumentalness: 0.000905,
+  liveness: 0.302,
+  valence: 0.625,
+  tempo: 114.944,
+  time_signature: 4
+}
+
+track(track_params) 
+-> wine(type, taste) 
+-> search_constraints(recommendations_amount, price, alcohol_percent) 
+-> generated_article + wine_cards
+
+wine_table:
+  - id; unique key
+  - name
+  - type
+  - taste
+  - product_details
+  - countries
+  - grape_sort
+  - tags
+  - description
+  - price
+  - img
+
