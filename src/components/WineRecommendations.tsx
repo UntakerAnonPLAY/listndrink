@@ -15,11 +15,11 @@ const wineInfo: WineCardInfo = {
 export function WineRecommendations({ amount }: { amount: number }) {
   const wineCards = [];
   for (let i = 0; i < amount; i++) {
-    wineCards.push(<WineCard info={wineInfo} />);
+    wineCards.push(<WineCard info={wineInfo} key={i}/>);
   }
   return (
     <section>
-      <h2>Wine Recommendations</h2>
+      <h2 className={styles.name}>Wine Recommendations</h2>
       {wineCards}
     </section>
   );
