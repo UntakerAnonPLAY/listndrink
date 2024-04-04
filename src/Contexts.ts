@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { TrackInfo } from "./lib";
+import { TrackInfo } from "./lib/lib";
 
 //track selection context
 export const setTrackContext = createContext(

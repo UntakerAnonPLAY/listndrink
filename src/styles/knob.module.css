@@ -1,0 +1,8 @@
+.box {
+  transform: translateX(-50%);
+  top: 2em;
+  position: absolute;
+  width: 6em;
+  background-color: white;
+  border-radius: 0.5em;
+}

@@ -47,20 +47,28 @@
   padding: 0.5em;
   max-height: 20em;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .track {
   display: flex;
   justify-items: center;
-  border-bottom: 1px solid #e0e0e0;
+  align-items: center;
+  /* border-bottom: 1px solid #e0e0e0; */
 }
 
 .track img {
-  width: 4em;
-  height: 4em;
-  /* margin: auto 0.5em; */
+  width: 5em;
+  height: 5em;
+  margin: 0.25em;
 }
 
 .track h3 {
+  font-size: large;
+  /* margin: 0.5em; */
+}
+
+.track p {
   font-size: small;
+  /* margin: 0.5em; */
 }

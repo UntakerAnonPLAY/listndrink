@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 import { Search } from "./components/Search";
 import React, { useState } from "react";
 import { setTrackContext } from "./Contexts";
-import { TrackInfo } from "./lib";
+import { TrackInfo } from "./lib/lib";
 import { Article } from "./components/Article";
 
 function App() {
